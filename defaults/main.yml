@@ -1,0 +1,4 @@
+---
+## defaults file for ngrok
+ngrok_dn_suffix: 'ngrok.io'
+sites: ['example']
