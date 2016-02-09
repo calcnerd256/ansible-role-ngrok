@@ -1,7 +1,7 @@
 ---
 - name: Kill ngrok if running
   sudo_user: vagrant
-  command: killall -q ngrok
+  command: killall -v -q ngrok
   ignore_errors: yes
 - name: Start ngrok
   sudo_user: vagrant
